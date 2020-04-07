@@ -65,7 +65,7 @@ public class Bank {
 	
 	public String deposit(double amount) {
 	 	  this.balance = this.balance + amount;
-           return "Balance is now " + this.balance;
+           return "Balance is approximately now " + this.balance;
 	 		
 		}
 	public String withdrawal(double amount) {
